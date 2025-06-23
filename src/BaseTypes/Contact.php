@@ -22,6 +22,13 @@ class Contact extends Base
     public $company = '';
 
     /**
+     * Тип получателя
+     * @Type("string")
+     * @var string
+     */
+    public $contragent_type = '';
+
+    /**
      * ФИО контактного лица
      * @Type("string")
      * @var string
